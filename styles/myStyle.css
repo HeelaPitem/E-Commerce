@@ -1,0 +1,175 @@
+﻿html, body {
+    direction: ltr;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#container {
+    line-height: 1.25;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#shopContainer {
+    height: 100%;
+}
+
+nav {
+    border-bottom: 1px gainsboro solid;
+}
+
+nav ul {
+    padding: 3px 0;
+    margin-bottom: 0;
+}
+
+.col {
+    height: min-content;
+}
+
+#shopContainer {
+    height: 100%;
+}
+
+.row-2 {
+    display: none;
+    height: 100%;
+}
+
+#enterBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 30px 0;
+    border-radius: 15px;
+    font-size: x-large;
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, .5);
+    cursor: pointer;
+}
+
+#enterBtn:hover {
+    background-color: #0058b6;
+}
+
+.hide-me[aria-expanded="true"] {
+    display: none;
+}
+
+.productsImages {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.fa-plus, .fa-minus {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-plus:disabled, .fa-minus:disabled {
+    font-size: 20px;
+}
+
+.disabled {
+    cursor: not-allowed;
+    color: lightgray;
+}
+
+.quantityInput {
+    width: 50px;
+    text-align: center;
+}
+
+.btn-primary {
+    display: block !important;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#cartDiv {
+    height: 100%;
+    float: right;
+    background-color: #fafffc;
+    ;
+    padding: 0;
+}
+
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.price span {
+    text-decoration: line-through;
+}
+
+#cartDiv {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    border-left: 1px black solid;
+    height: 100%;
+}
+
+.fa-window-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 30px;
+}
+
+.fa-shopping-cart {
+    font-size: 100px !important;
+    padding-top: 100px;
+}
+
+.shoppingCartFig {
+    padding-bottom: 100px;
+}
+
+.cartProducts {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    height: 65px;
+    background-color: white;
+    padding: 5px 5px;
+}
+
+.cartImg {
+    width: 60px;
+    float: left;
+}
+
+.cartProducts figcaption {
+    align-self: center;
+    padding-left: 15px;
+}
+
+.cartProducts p {
+    margin-bottom: 0;
+    position: absolute;
+    right: 30px;
+    align-self: center;
+}
+
+.cartProducts p span {
+    color: gray;
+    font-size: small;
+}
+
+.cartProducts i {
+    align-self: auto;
+    margin-bottom: 0;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    width: max-content;
+}
